@@ -3,7 +3,7 @@
  * Config
  */
 
-var tkeys = require('./config/keys.json');
+var confs = require('./config/confs.json');
 
 /**
  * Module dependencies.
@@ -11,12 +11,13 @@ var tkeys = require('./config/keys.json');
 
 var Tuiter = require('tuiter');
 
-
 /**
  * Twitter emitter
  */
 
-var tuitter = new Tuiter(tkeys);
+console.log('-> confs -> ', confs);
+
+var tuitter = new Tuiter(confs.tkeys);
 
 tuitter.update({ status: 'TW' }, function(err, res){
   console.log('-> err -> ', err);
