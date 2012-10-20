@@ -9,14 +9,13 @@ var confs = require('./config/confs.json');
  * Module dependencies.
  */
 
-var Tuiter = require('tuiter');
+var Tuiter = require('tuiter')
+  , jobs = require('./lib/jobs');
 
 /**
  * Twitter emitter
  */
-
-console.log('-> confs -> ', confs);
-
+/*
 var tuitter = new Tuiter(confs.tkeys);
 
 tuitter.update({ status: 'TW' }, function(err, res){
@@ -39,3 +38,19 @@ tuitter.filter({ track: ['nodejs','pokemon'] }, function(stream){
 process.on('uncaughtException', function(err){
   console.log(err);
 });
+*/
+
+/**
+ * Polling
+ */
+
+polling();
+var pollingTimer = setInterval(polling, 1000 * 60 * 5);
+
+/**
+ * Polling from components server
+ */
+
+function polling(){
+  jobs.polling();
+}
