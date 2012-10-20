@@ -1,7 +1,7 @@
 
 run:
 	clear
-	node index.js
+	node app.js
 
 clean:
 	rm -fr node_modules
