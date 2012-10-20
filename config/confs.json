@@ -7,5 +7,6 @@
     "access_token_secret": "4Nw7w6ak2xnTW8N8vaDdTxPw3m9g6L3q4hTBPCToCA"
   },
 
-  "remote": "http://50.116.26.197/components"
+  "remote": "http://50.116.26.197/components",
+  "pollingDelay": "1000*60"
 }
