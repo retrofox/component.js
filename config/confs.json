@@ -8,5 +8,6 @@
   },
 
   "remote": "http://50.116.26.197/components",
-  "pollingDelay": "1000*60"
+  "pollingDelay": "1000*60",
+  "db": "localhost/components-dev"
 }
