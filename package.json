@@ -1,0 +1,17 @@
+
+{
+  "name": "component.js",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Damian Suarez <rdsuarez@gmail.com>",
+  "keywords": ["component"],
+  "dependencies": {
+    "kue": "*",
+    "tuiter": " "
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
