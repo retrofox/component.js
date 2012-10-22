@@ -15,7 +15,7 @@ var Tuiter = require('tuiter')
 /**
  * Twitter emitter
  */
-/*
+
 var tuitter = new Tuiter(confs.tkeys);
 
 tuitter.update({ status: 'TW' }, function(err, res){
@@ -38,14 +38,13 @@ tuitter.filter({ track: ['nodejs','pokemon'] }, function(stream){
 process.on('uncaughtException', function(err){
   console.log(err);
 });
-*/
 
 /**
- * Polling
+ * polling
  */
 
 polling();
-var pollingTimer = setInterval(polling, 1000 * 60 * 5);
+var pollingTimer = setInterval(polling, 1000 * 60);
 
 /**
  * Polling from components server
