@@ -1,17 +1,17 @@
 
 {
   "tkeys": {
-    "consumer_key": "FPd6McZijcWSMg0ARbM28w",
-    "consumer_secret": "ESl09CPfYSIctFdEyqgtjh1GVimcrLqYC2GVL5rs",
+    "consumer_key": "483YCsHbZlSioU175m8g",
+    "consumer_secret": "D7tNhwRhLMzTJnJo69jpx3xMIfehDkyoXkrE3eEXE0",
     "access_token_key": "890962220-y9W6rH1T7bQ9BdyOJhouW8sFksmndpLPLUj55uPd",
-    "access_token_secret": "i4Nw7w6ak2xnTW8N8vaDdTxPw3m9g6L3q4hTBPCToCA"
+    "access_token_secret": "4Nw7w6ak2xnTW8N8vaDdTxPw3m9g6L3q4hTBPCToCA"
   },
 
   "testerkeys": {
-    "consumer_key": "rjerX44yEDGGDlt0QvCbfw",
-    "consumer_secret": "3j4YjemFSO1vd01M38t0sU7kMpY2CeH7XkrBpmi4rl4",
-    "access_token_key": "186072215-kHHEB6ER0MEt7VRiKsh2mufhfh2iYraGradKLE6B",
-    "access_token_secret": "Y3ZuAfWUhajqt6U6bZMhQfuIhjM18qMdukqgzqrDA"
+    "consumer_key": "DL2SX2ZwnTD8h0rSY9YkA",
+    "consumer_secret": "BOKmfLUBonyokB2DDVJeV3mPCx3uy5moXlXJyt54",
+    "access_token_key": "890962220-hNcpwrsySVBQswLBRavHkJOeJ2BRtf0tKbzRCbsg",
+    "access_token_secret": "hjaZPQMveXtUkQZweXAdnkMKIxvR6gtvAeXiHQShEs"
   },
 
   "remote": "http://50.116.26.197/components",
