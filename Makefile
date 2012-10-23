@@ -1,6 +1,7 @@
 
 run:
 	clear
+	redis-cli flushdb
 	node app.js
 
 clean:
