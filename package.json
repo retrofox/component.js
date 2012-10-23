@@ -9,6 +9,7 @@
     "kue": "*",
     "superagent": "0.9.3",
     "monk": "*",
+    "octonode": "*",
     "truncate-component": "*",
     "tuiter": " "
   },
