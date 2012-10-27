@@ -18,11 +18,12 @@ var jobs = require('./lib/jobs');
 
 var db = dB(confs.db);
 
-var qry = { $or: [ { twitted: 'zero' }, { twitted: 'stacked' } ] };
+var qry = { $or: [ { twitted: 'zero' }, { twitted: 'stacked' }, { twitted: 'failed' } ] };
 var set = { twitted: 'zero' };
 
 db.components.find(qry, function(err, data){
   var counter = data.length;
+  if (!counter) return init();
   console.log('reseting %s components', counter);
   data.forEach(function(doc, i){
     db.components.update(doc._id, { $set: set }, function(){
@@ -36,19 +37,26 @@ db.components.find(qry, function(err, data){
  * Init process
  */
 
+var countdown = 120;
+
 function init(){
   schedule();
-  setTimeout(schedule, 1000*60);
+  setInterval(schedule, 1000 * 60 * 2);
+  setInterval(function(){
+    console.log('-> countdown -> ', countdown);
+    countdown--;
+  }, 1000);
 }
 
 /**
  *
  * Start jobs
  *
- * - polling from components server
+ * - wiking from components server
  * - emit twitts
  */
 
 function schedule(){
-  jobs.polling();
+  countdown = 120;
+  jobs.wiking();
 }

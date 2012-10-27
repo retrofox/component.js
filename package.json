@@ -8,9 +8,13 @@
   "dependencies": {
     "kue": "*",
     "superagent": "0.9.3",
+    "oauth": "0.9.x",
+    "escape-regexp": "*",
     "monk": "*",
     "octonode": "*",
     "truncate-component": "*",
+    "octonode": "*",
+    "component-wiki": "*",
     "tuiter": " "
   },
   "devDependencies": {
