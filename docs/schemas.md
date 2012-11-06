@@ -12,5 +12,12 @@
   - `star` github component stars
   - `gh` github repo properties of the component via gh API 3.x (stringiied)
 
-  - `twitted` component twitted status -> |zero|twitted|stacked|re-send|failed|
-  - `gh-status` component github repo status -> |200|404|
+  - `twitted` component twitted status
+      - 'zero': 'ready to twitter'
+      - 'stacked': 'into the twtting stack'
+      - 'twitted': 'it already has been twitted'
+      - 're-send': 'ready to twitte again'
+      - 'failed': 'twitting process failed'
+      - 'waiting': 'the twitt can be emitted. Waiting for soma change'
+
+  - `gh_status` component github repo status -> |200|404|
