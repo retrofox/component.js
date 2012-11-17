@@ -1,10 +1,11 @@
-
 {
   "name": "component.js",
   "version": "0.1.0",
   "description": "",
   "author": "Damian Suarez <rdsuarez@gmail.com>",
-  "keywords": ["component"],
+  "keywords": [
+    "component"
+  ],
   "dependencies": {
     "kue": "*",
     "superagent": "0.9.3",
@@ -13,13 +14,20 @@
     "monk": "*",
     "octonode": "*",
     "truncate-component": "*",
-    "octonode": "*",
     "component-wiki": "*",
+    "irc": "*",
     "tuiter": " "
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
   },
-  "main": "index"
+  "main": "index",
+  "subdomain": "component_js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
 }
