@@ -16,7 +16,8 @@
     "truncate-component": "*",
     "component-wiki": "*",
     "irc": "*",
-    "tuiter": " "
+    "jog": "*",
+    "tuiter": "0.2.1"
   },
   "devDependencies": {
     "mocha": "*",
