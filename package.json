@@ -1,6 +1,6 @@
 {
   "name": "component.js",
-  "version": "0.1.0",
+  "version": "0.1.0-8",
   "description": "",
   "author": "Damian Suarez <rdsuarez@gmail.com>",
   "keywords": [
@@ -17,7 +17,8 @@
     "component-wiki": "*",
     "irc": "*",
     "jog": "*",
-    "tuiter": "0.2.1"
+    "redis": "*",
+    "tuiter": "0.2.2"
   },
   "devDependencies": {
     "mocha": "*",

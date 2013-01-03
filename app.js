@@ -22,7 +22,7 @@ var qry = { $or: [ { twitted: 'zero' }, { twitted: 'stacked' }, { twitted: 'fail
 var set = { twitted: 'zero' };
 
 db.components.find(qry, function(err, data){
-  var counter = data.length;
+  var counter = data ? data.length : 0;
   if (!counter) return init();
   console.log('reseting %s components', counter);
   data.forEach(function(doc, i){
