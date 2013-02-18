@@ -14,13 +14,6 @@
     "access_token_secret" : "ZbtAHqQMTh2Bh7nVD71XoIXDAXvpiJztEmqEOG5Wt1Q"
   },
 
-  "nicar": {
-    "consumer_key": "NmviqqQhKgl3DFqbXeqAQ",
-    "consumer_secret": "ffzNM6D0JshuQvZnXdkRMl6xh6YNCh21LWrV4cknZc",
-    "access_token_key": "900941815-KG8RGV7Yv4on4LQ3rYnSngW1DR943DeNhuxNJOI7",
-    "access_token_secret": "BDpd4dc9iV4wBqnMkwVpac0AUxapILRbKJ9SZX00"
-  },
-
   "remote": "http://50.116.26.197/components",
   "pollingDelay": "1000*60",
   "db": "localhost/components-dev"
